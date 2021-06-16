@@ -1,0 +1,30 @@
+p, ol {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+}
+ol li {
+    list-style: none;
+}
+section{ 
+    background-color: rgba(167, 167, 167, 0.3);
+}
+
+#image {
+    border: solid 5px gold;
+    background-image: url("https://chocolatecoveredkatie.com/wp-content/uploads/2020/05/Baked-Vegan-Donuts-Recipes.jpg");
+}
+main {
+    background-image:linear-gradient(to right, rgba(221, 201, 221, 0.5), rgba(194, 186, 167, 0.5)), url("https://media.wired.com/photos/6074aa620dfeac35a0cca839/master/pass/Science_donuts_465529983.jpg");
+}
+
+
+
+@media only screen and (max-width:768px) {
+    p {
+        margin: 50px 10px;
+        background-color: beige;
+    }
+    #image {
+        height: 400px;
+    }
+}
